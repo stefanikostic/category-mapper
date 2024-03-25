@@ -9,6 +9,9 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+/**
+ * Configuration properties class for mapped categories.
+ */
 @Component
 @ConfigurationProperties
 @PropertySource(value = "mappedcategories.properties", encoding = "UTF-8")
